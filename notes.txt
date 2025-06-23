@@ -1,0 +1,8 @@
+Why is the correlation between the portfolio and the FF HML factor not 1?
+A: Our B/M long-short portfolios are simple single sorts based on Fama-French’s (1992) 
+univariate regression rather than the size-balanced 2 x 3 two-step constructions from 
+Fama-French (1993). That is, FF 1993 form HML by (1) forming 6 portfolios by sorting on size 
+and book-to-market and then (2) going long-short the extreme book-to-market portfolios with equal-weighting. 
+Our code allows for this more complicated construction but we haven’t built it yet. Contributors are welcome! 
+We have implemented this alternative construction and you can find those 2 x 3 portfolios here.
+~from FAQ of openassetpricing
