@@ -6,3 +6,6 @@ and book-to-market and then (2) going long-short the extreme book-to-market port
 Our code allows for this more complicated construction but we haven’t built it yet. Contributors are welcome! 
 We have implemented this alternative construction and you can find those 2 x 3 portfolios here.
 ~from FAQ of openassetpricing
+
+
+ret_monthly kann noch nicht ganz stimmen!!!
