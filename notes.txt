@@ -6,3 +6,19 @@ and book-to-market and then (2) going long-short the extreme book-to-market port
 Our code allows for this more complicated construction but we haven’t built it yet. Contributors are welcome! 
 We have implemented this alternative construction and you can find those 2 x 3 portfolios here.
 ~from FAQ of openassetpricing
+
+
+When the value style is in favor, assets flow in, returns are good, and value becomes 
+expensive based on relative valuation. When the market tide turns, the opposite happens: 
+funds flow out of value stocks, these flows generate negative price pressure, and value becomes 
+relatively cheap as returns fall. If this holds, then, as we noted earlier, the falling relative 
+valuation of value stocks versus growth stocks should be a temporary headwind.
+~Is Value Investing Structurally Impaired? - Michael Aked
+
+
+import nasdaqdatalink
+data = nasdaqdatalink.get('NSE/OIL')
+
+NASDAQ Data Link API Key: cXeAmNDsxwDc9KznhMoy
+
+FRED API Key: bba75ab32d4dc4aedb40f87beac720d3
