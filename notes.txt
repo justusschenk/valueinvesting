@@ -22,3 +22,11 @@ data = nasdaqdatalink.get('NSE/OIL')
 NASDAQ Data Link API Key: cXeAmNDsxwDc9KznhMoy
 
 FRED API Key: bba75ab32d4dc4aedb40f87beac720d3
+
+
+July 2nd: 
+- Following Adrei Goncalves in computing fundamental equity/ fundamentals-to-market ratio to compensate for 
+  potentially outdated bookvalue-metric
+- further analyse the return decomposition
+    - investigate how each factor behaves in other models implemented only with long-short-returns to date
+    - Analyze changes in return factors over time and find reasons for those changes
