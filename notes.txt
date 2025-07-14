@@ -48,3 +48,6 @@ gen AssetTurnover = sale/((temp + l12.temp)/2)
 
 to derive sales from asset turnover I use AssetTurnover*TotalAssets. I dont have the matching data that would get the pure Sales value!
 Therefore the values will not be accurate.
+
+i will probably need to find a different calculation of the fundamental equity. several possibilities (check on research)
+looks promising so far though, so no need to discard fundamental equity as new sort.
