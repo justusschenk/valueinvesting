@@ -51,3 +51,6 @@ Therefore the values will not be accurate.
 
 i will probably need to find a different calculation of the fundamental equity. several possibilities (check on research)
 looks promising so far though, so no need to discard fundamental equity as new sort.
+
+Regression: Do regression as described in Chen et al. It doesnt use VAR. I might want to stick with the results of the VAR, 
+but i need the transfer to long range dependencies.
