@@ -54,3 +54,7 @@ looks promising so far though, so no need to discard fundamental equity as new s
 
 Regression: Do regression as described in Chen et al. It doesnt use VAR. I might want to stick with the results of the VAR, 
 but i need the transfer to long range dependencies.
+
+
+Return Decomposition:
+Currently computed with single-sort, maybe run with FF 2x3 sort
