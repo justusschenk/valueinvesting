@@ -5,4 +5,5 @@ Data/dividends.pkl
 Data/bookvalue.pkl
 Data/price.pkl
 Data/shrout.pkl
-CRSP Universe Monthly Stock File 1960-2018.dtaData/*.pkl
+CRSP Universe Monthly Stock File 1960-2018.dta
+Data/*.pkl
