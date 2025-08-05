@@ -58,3 +58,30 @@ but i need the transfer to long range dependencies.
 
 Return Decomposition:
 Currently computed with single-sort, maybe run with FF 2x3 sort
+
+
+Outline:
+Baseline:
+- Decide on whether to use portfolio with or without financials
+- keep congruent (stick with one and check all other calculations on input data)
+
+FFC analysis: 
+-get kalman filter working
+-interpret results
+
+Macro regression:
+- figure out appropirate models (normal VAR doesnt capture structural breaks!)
+- describe methodology
+- interpret results
+
+fundamental value:
+- get a model to work
+- describe methodology
+- interpret results
+
+Decide on what to do with return decomposition
+- do it
+
+Check on further sources of decline:
+- is premium arbitraged away?
+- what do etf have to do with this?
