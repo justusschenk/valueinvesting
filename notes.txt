@@ -62,12 +62,12 @@ Currently computed with single-sort, maybe run with FF 2x3 sort
 
 Outline:
 Baseline:
-- Decide on whether to use portfolio with or without financials
+- Decide on whether to use portfolio with or without financials -> without financials
 - keep congruent (stick with one and check all other calculations on input data)
 
 FFC analysis: 
--get kalman filter working
--interpret results
+-get kalman filter working: complete
+-interpret results: complete
 
 Macro regression:
 - figure out appropirate models (normal VAR doesnt capture structural breaks!)
@@ -85,3 +85,17 @@ Decide on what to do with return decomposition
 Check on further sources of decline:
 - is premium arbitraged away?
 - what do etf have to do with this?
+
+Observation:
+70% percentile of B/M ratios  also include firms with B/M ratio <1. Does this potentially indicate that potentially overvalued
+stocks are being classified as value stocks? In die misperception of them meanreverting to a lower B/M even though the market value is already higher than
+the bookvalue? Does this potentially influence performance?
+
+--> Since stocks on the value side have B/M ratios of 0.5 there must be something going on:
+    --> value stocks became expensive (less risk is being compensated) while growth stocks became "very" expensive
+    --> bookvalue does not capture intrinsic value
+        --> compare zscore and PCA
+
+PCA: 
+--> using entire dataset for fitting may bias strong performing periods
+--> use cross-sectional / rolling PCA instead
